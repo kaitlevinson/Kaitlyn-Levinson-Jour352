@@ -26,9 +26,7 @@ body {
   margin: 0 auto;
 }
 
-.menu{
-  margin: 0px;
-  padding: 0px;
+.menu li{
   text-align: center;
   display: inline;
 }
@@ -39,7 +37,8 @@ body {
   font-size: 1.5em;
   color: #33485e;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /* section titles */
