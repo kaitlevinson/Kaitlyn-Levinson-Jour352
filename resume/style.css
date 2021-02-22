@@ -26,8 +26,17 @@ body {
   margin: 0 auto;
 }
 
-.menu li{
+#title {
+  font-weight: 600;
   text-align: center;
+  margin-top: 20px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li{
   display: inline;
 }
 
@@ -74,11 +83,17 @@ body {
   margin-top: 2px;
 }
 
+/*education*/
+#degrees ul{
+  margin-top: 5px;
+}
+
+/*skills*/
+#do ul{
+  margin-top: 5px;
+}
+
 /* items in unordered lists */
 li {
   font-size: 1em;
-}
-
-#do ul{
-  margin-top: 5px;
 }
