@@ -8,50 +8,78 @@ body {
   font-weight: 400;
 }
 
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*banner name at top */
-h1 {
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.menu{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
 }
 
 /* title */
-p {
+.description {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* section titles */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
   font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* job titles */
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* job organization */
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* job dates */
-h5 {
+.date {
   font-weight: 400;
   font-style: italic;
   font-size: 1.5em;
+  margin-top: 2px;
 }
 
 /* items in unordered lists */
 li {
   font-size: 1em;
+}
+
+#do ul{
+  margin-top: 5px;
 }
