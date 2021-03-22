@@ -29,6 +29,7 @@ p{
 
 .text-muted{
   font-size: 0.5em;
+  margin-top: 0px;
 }
 
 .col-md-4{
@@ -40,4 +41,9 @@ p{
   text-align: center;
   background-color: black;
   height: 80px;
+}
+
+.fw-bold{
+  font-weight: bolder;
+  margin-bottom: 0px;
 }
