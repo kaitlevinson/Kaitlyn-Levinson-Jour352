@@ -26,6 +26,7 @@ font-style: italic;
 h1{
   font-style: Helvetica, sans-serif;
   font-size: 1.5em;
+  margin-bottom: 5px;
 }
 
 p{
@@ -45,10 +46,17 @@ border-left: 4px solid #D73232;
 }
 
 img {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   width: 70%;
+}
+
+.figure-caption{
+  font-family: Georgia;
+  font-size: 0.5em;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 100%;
 }
