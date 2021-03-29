@@ -3,13 +3,52 @@
   width: 900px;
 }
 
+#masthead{
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #D73232;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+  min-width: 300px;
+  height: 70px;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+h1{
+  font-style: Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+p{
+  font-style: Georgia, serif;
+  font-size: 13px;
+}
+
 blockquote {
 font: 16px/24px normal helvetica, sans-serif;
 font-style: italic;
 margin-top: 15px;
 margin-bottom: 15px;
-color: red;
+color: #D73232;
 margin-left: 50px;
 padding-left: 15px;
-border-left: 4px solid #ccc;
-} 
+border-left: 4px solid #D73232;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  width: 70%;
+}
