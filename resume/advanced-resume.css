@@ -4,3 +4,17 @@
   margin-bottom: 0px;
   position: relative;
 }
+
+.navbar .bg-light{
+    text-align: right;
+    width: 900px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+#content{
+  margin: 0 auto;
+  width: 900px;
+  border-left: 4px solid #554A46;
+}
