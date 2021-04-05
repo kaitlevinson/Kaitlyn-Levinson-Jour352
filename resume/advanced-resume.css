@@ -43,6 +43,10 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.organization .jobtitle {
+  font-weight: bold;
+}
+
 body{
   background-color: #EEECE9;
 }
