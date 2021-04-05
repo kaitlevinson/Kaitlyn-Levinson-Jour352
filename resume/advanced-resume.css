@@ -1,1 +1,17 @@
 /* Styles for Advanced Resume*/
+
+#masthead{
+  margin-bottom: 0px;
+}
+
+#content{
+  text-align: center;
+  display: inline;
+  width: 900px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 0px;
+  }
+
+.container-fluid{
+  height: 20px;
+}
