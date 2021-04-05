@@ -15,6 +15,7 @@
   width: 900px;
   border-left: 2px dashed #554A46;
   padding-left: 15px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .col-md-2{
@@ -22,7 +23,7 @@
 }
 
 .sectionheader{
-  background: #BFD7CC;
+  background: #D4DBE1;
   height: 60px;
   text-align: center;
   padding-top: 10px;
