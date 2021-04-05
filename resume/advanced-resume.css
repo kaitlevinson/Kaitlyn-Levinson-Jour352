@@ -47,6 +47,11 @@ body{
   background-color: #EEECE9;
 }
 
+.menu{
+  text-align: left;
+  margin-left: 0px;
+}
+
 .footer{
   margin-bottom: 0px;
   margin-top: 30px;
