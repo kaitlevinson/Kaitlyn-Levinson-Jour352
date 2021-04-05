@@ -13,26 +13,36 @@
 #content{
   margin: 0 auto;
   width: 900px;
-  border-left: 2px solid #554A46;
+  border-left: 2px dashed #554A46;
   padding-left: 15px;
 }
 
 .col-md-2{
   font-family: 'Nunito Sans', sans-serif;
-  font-weight:bold;
 }
+
 .sectionheader{
   background: #BFD7CC;
   height: 60px;
   text-align: center;
   padding-top: 10px;
   text-transform: uppercase;
-  font-weight: bolder;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: bold;
   font-size: 1.5em;
+  color: #413734;
+  letter-spacing: 3px;
 }
 
-.heading{
-  margin: 0 auto;
-  width: 900px;
-  font-size: 1.5em;
+.heading p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+  background-color: #EEECE9;
 }
