@@ -5,16 +5,18 @@
   position: relative;
 }
 
-.navbar .bg-light{
-    text-align: right;
+.navbar .navbar-expand-lg .navbar-light{
     width: 900px;
     margin: 0 auto;
-    font-family: Helvetica, Arial, sans-serif;
 }
-
 
 #content{
   margin: 0 auto;
   width: 900px;
-  border-left: 4px solid #554A46;
+  border-left: 2px solid #554A46;
+  padding-left: 15px;
+}
+
+.sectionheader{
+  background: #BFD7CC;
 }
