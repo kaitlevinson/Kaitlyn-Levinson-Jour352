@@ -1,0 +1,22 @@
+/* Styles for Experimental Resume*/
+
+#masthead {
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.navbar .navbar-expand-lg .navbar-light{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#content{
+  margin: 0 auto;
+  width: 900px;
+  border-left: 2px solid #554A46;
+  padding-left: 30px;
+}
+
+.sectionheader{
+  background: #BFD7CC;
+}
