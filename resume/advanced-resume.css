@@ -12,7 +12,6 @@
 
 #content{
   margin: 0 auto;
-  width: 900px;
   border-left: 2px dashed #554A46;
   padding-left: 15px;
   font-family: 'Nunito Sans', sans-serif;
@@ -46,4 +45,16 @@
 
 body{
   background-color: #EEECE9;
+}
+
+.footer{
+  margin-top: 30px;
+  text-align: center;
+  background-color: #B5A5A0;
+  height: 80px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.organization{
+  font-weight: bolder;
 }
