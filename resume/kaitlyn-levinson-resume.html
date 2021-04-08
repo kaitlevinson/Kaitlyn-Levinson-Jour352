@@ -3,6 +3,10 @@
 <html lang="en">
 
 <head>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>Kaitlyn Levinson Resume</title>
 
   <!-- Bootstrap CSS -->
@@ -29,23 +33,23 @@
           <div class="container-fluid">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#Experience">Experience</a>
+                  <a class="nav-link active" aria-current="page" href="#Experience"><a href="#anchor1">Experience</a></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#Education">Education</a>
+                  <a class="nav-link active" aria-current="page" href="#Education"><a href="#anchor2">Education</a></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#Skills">Skills</a>
+                  <a class="nav-link active" aria-current="page" href="#Skills"><a href="#anchor3">Skills</a></a>
                 </li>
 
-                <!--social media-->
+                <!--practice dropdown social media-->
                 <li class="nav-item dropdown">
-                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Social Media</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#"><a href="https://www.linkedin.com/in/kaitlyn-levinson-787777205/">LinkedIn</a></a></li>
-                      <li><a class="dropdown-item" href="#"><a href="https://twitter.com/kaitlevinson">Twitter</a></a></li>
-                      <li><hr class="dropdown-divider"></li><a href="https://www.instagram.com/kaitlynlevinson/">Instagram</a>
-                    </ul>
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://twitter.com/kaitlevinson" target="_new">Twitter</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/kaitlynlevinson/" target="new">Instagram</a>
+                        <a class="dropdown-item" href="https://www.facebook.com/kaitlyn.levinson/" target="_new">Facebook</a>
+                    </div>
                 </li>
               </ul>
             </div>
@@ -63,14 +67,16 @@
             <ul>
               <p><a href = "mailto: k.levinson10@gmail.com"><img src="email-icon.png"> Send me an email</a></p>
               <p><a href="tel:8562969970"><img src="phone-icon.png"> Give me a call</a></p>
-              <p><a href="https://www.linkedin.com/in/kaitlyn-levinson-787777205/"><img src="other-linkedin.png"> Find me on LinkedIn</a></p>
+              <p><a href="https://www.linkedin.com/in/kaitlyn-levinson-787777205/" target="_new"><img src="other-linkedin.png"> Find me on LinkedIn</a></p>
           </ul>
           </div>
       </div>
 
       <div id="content">
         <!--experience section-->
-        <div class="sectionheader"><h2>Experience</h2></div>
+        <div class="sectionheader">
+          <a name="anchor1"><h2>Experience</h2></a>
+        </div>
 
           <ul>
             <div class="organization">Greenbelt News Review</div>
@@ -137,7 +143,7 @@
 
           <!--education section -->
             <div id="degrees">
-              <div class="sectionheader">Education</div>
+              <div class="sectionheader"><a name="anchor2"><h2>Education</h2></a></div>
                 <ul>
                   <p><b>Philip Merrill College of Journalism, University of Maryland, College Park</b></p>
                     <ul>
@@ -147,7 +153,8 @@
             </div>
 
           <!--skills section-->
-          <div class="sectionheader">Skills</div>
+          <div class="sectionheader"><a name="anchor3"><h2>Skills<h2></a>
+          </div>
             <div id="do">
               <ul>
                 <p>Familiarity with Excel</p>
@@ -165,15 +172,32 @@
     <p style="color:grey">Kaitlyn Levinson<br>All rights reserved.</p>
     <ul>
     <!--share pages-->
-      <a href="https://www.facebook.com/sharer.php?..." target="blank" rel="noopener noreferrer"><img src="facebook-icon.png">Share on Facebook</a>
-      <a href="https://twitter.com/intent/tweet?..." target="blank" rel="noopener noreferrer"><img src="twitter-icon.png">Share on Twitter</a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://developer.linkedin.com&title=LinkedIn%20Developer%20Network&summary=My%20favorite%20developer%20program&source=LinkedIn" target="blank" rel="noopener noreferrer"><img src="linkedin-icon.png">Share on LinkedIn</a>=
+    <div class="container">
+      <div class="row">
+        <!--column1-->
+        <div class="col-md-4">
+          <a href="https://www.facebook.com/sharer.php?..." target="blank" rel="noopener noreferrer"><img src="facebook-icon.png">Share on Facebook</a>
+        </div>
+
+        <!--column 2-->
+        <div class="col-md-4">
+          <a href="https://twitter.com/intent/tweet?..." target="blank" rel="noopener noreferrer"><img src="twitter-icon.png">Share on Twitter</a>
+        </div>
+
+        <!--column 3-->
+        <div class="col-md-4">
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://developer.linkedin.com&title=LinkedIn%20Developer%20Network&summary=My%20favorite%20developer%20program&source=LinkedIn" target="blank" rel="noopener noreferrer"><img src="linkedin-icon.png">Share on LinkedIn</a>
+        </div>
+      </div>
+    </div>
   </ul>
-  </div>
+</div>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</div>
 </body>
 </html>
