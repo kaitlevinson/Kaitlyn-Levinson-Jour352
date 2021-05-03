@@ -1,18 +1,23 @@
 /* styles for roughversionfinalproject */
 
-#content{
-  margin: 0 auto;
-  width: 800px;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 12px;
+
+.col-lg-4 h1{
+  font-family: 'Crimson Text', serif;
+  line-height: 1;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
-h1{
-  text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
+.col-lg-4 #byline{
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
 }
 
-#byline{
-  text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
+.col-lg-8{
+  margin-top: 40px;
+  font-family: 'Crimson Text', serif;
+}
+
+#masthead{
+  font-family: 'Alfa Slab One', cursive;
 }
