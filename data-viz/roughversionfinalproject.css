@@ -20,7 +20,7 @@
 }
 
 #masthead{
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Alfa Slab One', serif;
 }
 
 blockquote{
@@ -31,4 +31,12 @@ blockquote{
 
 figcaption{
   padding-bottom: 20px;
+}
+
+.footer {
+  background-color: #E54343;
+  height: 120px;
+  width: 100%;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
 }
