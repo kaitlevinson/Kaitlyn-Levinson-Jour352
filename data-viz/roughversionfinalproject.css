@@ -40,3 +40,11 @@ figcaption{
   font-family: 'Crimson Text', serif;
   text-align: center;
 }
+
+h4{
+  padding-top: 30px;
+}
+
+#navbarTogglerDemo03{
+  padding-left: 60px;
+}
